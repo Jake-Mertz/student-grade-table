@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 1250px;
+  height: 100vh;
+}
+
+.row {
+  width: 100%;
+}
+
+.table-container {
+  width: 80%;
+  display: flex;
+}
