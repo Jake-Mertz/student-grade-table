@@ -8,7 +8,11 @@
   width: 100%;
 }
 
-.table-container {
-  width: 80%;
+/* .form {
   display: flex;
+  flex-direction: column;
+} */
+
+input {
+  margin-bottom: 10px;
 }
