@@ -4,5 +4,9 @@ var gradeTable = new GradeTable(table);
 var header = document.querySelector(".header");
 var pageHeader = new PageHeader(header);
 
-var newAPP = new APP(gradeTable, pageHeader);
+var form = document.querySelector('.form');
+
+var gradeForm = new GradeForm(form);
+
+var newAPP = new APP(gradeTable, pageHeader, gradeForm);
 newAPP.start();
