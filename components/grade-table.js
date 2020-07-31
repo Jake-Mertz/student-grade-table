@@ -1,21 +1,23 @@
 class GradeTable {
   constructor(tableElement) {
-    this.a = tableElement;
+    this.tableElement = tableElement;
   }
   updateGrades(grades) {
-    document.querySelector(".table-body").textContent = '';
+    this.tableElement.textContent = '';
+    console.log('update grades');
     for (var i = 0; i < grades.length; i++) {
       var newRow = document.createElement('tr');
       var newTd1 = document.createElement('td');
       var newTd2 = document.createElement('td');
       var newTd3 = document.createElement('td');
-        newTd1.textContent = grades.name;
-        newTd2.textContent = grades.course;
-        newTd3.textContent = grades.grade;
+        newTd1.textContent = grades[i].name;
+        newTd2.textContent = grades[i].course;
+        newTd3.textContent = grades[i].grade;
       newRow.append(newTd1);
       newRow.append(newTd2);
       newRow.append(newTd3);
-      document.querySelector("table-body").append(newRow);
+      this.tableElement.append(newRow);
+      // this.a.querySelector(".table-body");
     }
   }
 }
