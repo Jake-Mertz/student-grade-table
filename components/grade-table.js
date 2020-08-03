@@ -46,7 +46,7 @@ class GradeTable {
     var newButton = document.createElement('button');
     newButton.textContent = "DELETE";
     newTd4.append(newButton);
-    newButton.addEventListener('click', this.deleteGrade(data.id));
+    newButton.addEventListener('click', function() {deleteGrade(data.id)});
 
     newTd1.textContent = data.name;
     newTd2.textContent = data.course;
