@@ -25,7 +25,7 @@ class GradeTable {
         }
 
         var noGrades = document.getElementById('noGrades')
-      if (grades) {
+      if (grades.length > 0) {
         noGrades.classList.add('d-none')
       } else {
         noGrades.classList.remove('d-none');
