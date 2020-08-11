@@ -25,6 +25,5 @@ An interactive JavaScript application that communicates with a server to manage 
 
     ```shell
     git clone https://github.com/Jake-Mertz/student-grade-table.git
-    cd sgt-react
     ```
 
