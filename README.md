@@ -3,13 +3,9 @@ An interactive JavaScript application that communicates with a server to manage 
 
 ## Technologies Used
 
-- React.js
-- Webpack 4
 - Bootstrap 4
-- Node.js
 - HTML5
 - CSS3
-- AWS EC2
 
 ## Features
 
@@ -21,11 +17,6 @@ An interactive JavaScript application that communicates with a server to manage 
 ## Preview
 
 ![SGT](student-grade-table1.gif)
-
-### System Requirements
-
-- Node.js 10 or higher
-- NPM 6 or higher
 
 ### Getting Started
 
