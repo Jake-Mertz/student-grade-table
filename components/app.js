@@ -1,6 +1,5 @@
 class APP {
   handleGetGradesError(error) {
-    console.log(error);
   }
   handleGetGradesSuccess(grades) {
     this.gradeTable.updateGrades(grades);
@@ -9,10 +8,14 @@ class APP {
     for (var i = 0; i < grades.length; i++) {
       sum += grades[i].grade;
     }
+    if (grades.length === 0) {
+      gradesAverage = "N/A";
+    } else {
     var gradesAverage = sum / grades.length;
+    }
     this.pageHeader.updateAverage(gradesAverage);
 
-    console.log(grades);
+
   }
   constructor(gradeTable, pageHeader, gradeForm) {
     this.handleGetGradesError = this.handleGetGradesError.bind(this);
