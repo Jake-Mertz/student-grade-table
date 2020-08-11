@@ -6,6 +6,7 @@ An interactive JavaScript application that communicates with a server to manage 
 - Bootstrap 4
 - HTML5
 - CSS3
+- javascript
 
 ## Features
 
@@ -27,20 +28,3 @@ An interactive JavaScript application that communicates with a server to manage 
     cd sgt-react
     ```
 
-1. Install all dependencies with NPM.
-
-    ```shell
-    npm install
-    ```
-
-1. Import the example database to MongoDB.
-
-    ```shell
-    mongoimport --db sgt-react database/dump.json
-    ```
-
-1. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
-
-    ```shell
-    npm run dev
-    ```
