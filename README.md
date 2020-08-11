@@ -7,7 +7,6 @@ An interactive JavaScript application that communicates with a server to manage 
 - Webpack 4
 - Bootstrap 4
 - Node.js
-- MongoDB
 - HTML5
 - CSS3
 - AWS EC2
@@ -27,14 +26,13 @@ An interactive JavaScript application that communicates with a server to manage 
 
 - Node.js 10 or higher
 - NPM 6 or higher
-- MongoDB 4 or higher
 
 ### Getting Started
 
 1. Clone the repository.
 
     ```shell
-    git clone https://github.com/Learning-Fuze/sgt-react
+    git clone https://github.com/Jake-Mertz/student-grade-table.git
     cd sgt-react
     ```
 
