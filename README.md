@@ -21,7 +21,7 @@ An interactive JavaScript application that communicates with a server to manage 
 
 ## Preview
 
-
+![SGT](student-grade-table.gif)
 
 ### System Requirements
 
