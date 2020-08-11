@@ -6,7 +6,7 @@ An interactive JavaScript application that communicates with a server to manage 
 - Bootstrap 4
 - HTML5
 - CSS3
-- javascript
+- Javascript
 
 ## Features
 
