@@ -20,7 +20,7 @@ An interactive JavaScript application that communicates with a server to manage 
 
 ## Preview
 
-![SGT](student-grade-table.gif)
+![SGT](student-grade-table1.gif)
 
 ### System Requirements
 
