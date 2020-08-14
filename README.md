@@ -8,6 +8,10 @@ An interactive JavaScript application that communicates with a server to manage 
 - CSS3
 - Javascript
 
+## Live Demo
+
+Try the application live at [https://student-grade-table.lfz.com](https://student-grade-table.lfz.com)
+
 ## Features
 
 - Teachers can view a list of recorded grades.
