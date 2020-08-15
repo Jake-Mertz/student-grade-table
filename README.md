@@ -10,7 +10,7 @@ An interactive JavaScript application that communicates with a server to manage 
 
 ## Live Demo
 
-Try the application live at [https://student-grade-table.lfz.com](https://student-grade-table.lfz.com)
+Try the application live at [Student-Grade-Table](https://jake-mertz.github.io/student-grade-table/)
 
 ## Features
 
